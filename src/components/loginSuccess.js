@@ -10,10 +10,10 @@ export default class LoginSuccess extends Component {
   render () {
     return (
       <div className="container">
-        <h4> Login Successfull </h4>
-        <Link className="btn btn-primary" to="/">
+        <h4> Login Successful </h4>
+      <div className="logOutBtn">  <Link className="btn btn-primary" to="/">
           Log Out
-          </Link>
+          </Link> </div>
       </div>
     )
   }

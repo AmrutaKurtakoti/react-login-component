@@ -60,3 +60,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.error{
+  font-weight: bold;
+color: red;
+}
+.logOutBtn{
+  float: right;
+margin-top: -154px;
+}

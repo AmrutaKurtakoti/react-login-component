@@ -32,7 +32,7 @@ class Login extends Component{
        <div className="form">
        <h4>Login Form</h4>
        <form className="login-form" onSubmit={this.onSubmit}>
-           {user.errorMessage}
+          <div className="error"> {user.errorMessage}</div>
           <input type="text" id="username" value={this.state.username}
           placeholder="username" onChange={this.onUserNameChange} autoCorrect="off" autoCapitalize="off" spellCheck="false" required/>
           <input id="password" type="password" value={this.state.password}
